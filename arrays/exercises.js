@@ -142,3 +142,30 @@ const oddReduceLens = arr => {
 
 console.log(oddReduceLens(arr));
 
+// Without using a for, while, or do/while loop, write some code
+// that checks whether the number 3 appears inside these arrays:
+
+let numbers1 = [1, 3, 5, 7, 9, 11];
+let numbers2 = [];
+let numbers3 = [2, 4, 6, 8];
+// Return true or false depending on each result.
+
+let num1Res = numbers1.includes(3);
+let num2Res = numbers2.includes(3);
+let num3Res = numbers3.includes(3);
+
+console.log(num1Res, num2Res, num3Res);
+
+// Write some code to replace the value 6 in the following array
+// with 606:
+
+let a = [
+  ["hello", "world"],
+  ["example", "mem", null, 6, 88],
+  [4, 8, 12]
+];
+// You don't have to search the array. Just write an assignment that
+// replaces the 6.
+a[1][3] = 606;
+
+console.log(a);
